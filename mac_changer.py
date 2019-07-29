@@ -1,6 +1,5 @@
 import subprocess
 import optparse
-import re
 
 def mac_change(interface, mac_adr):
     print("[+] Changing mac address for " + interface + " to " + mac_adr)
